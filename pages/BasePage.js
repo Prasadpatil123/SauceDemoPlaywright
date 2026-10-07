@@ -4,6 +4,7 @@ import logger from '../utils/logger.js';
 class BasePage {
     constructor(page) {
         this.page = page;
+        console.log('BasePage constructor called');
     }
 
     async navigateUrl(url){
